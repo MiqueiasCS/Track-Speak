@@ -13,11 +13,18 @@ export const Container = styled.div`
     .content {
       display: flex;
       flex-wrap: wrap;
-      max-width: 800px;
+      justify-content: flex-start;
+      max-width: 560px;
+    }
+  }
+  @media (min-width: 1245px) {
+    .content {
+      max-width: 860px;
     }
   }
   @media (min-width: 1440px) {
     .content {
+      max-width: 960px;
     }
   }
 `;
@@ -29,7 +36,7 @@ export const ContainerCard = styled.div`
   align-items: center;
   margin: 10px 10px;
   max-width: 700px;
-  min-width: 300px;
+  min-width: 260px;
   justify-content: space-between;
 
   svg {
