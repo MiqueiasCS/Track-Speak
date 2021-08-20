@@ -106,22 +106,24 @@ export const GroupsProvider = ({ children }) => {
   useEffect(() => {
     if (authN) {
       setToken(JSON.parse(localStorage.getItem("token")));
-      api
-        .get("/groups/subscriptions/", {
-          headers: { Authorization: `Bearer ${token}` },
-        })
-        .then((res) => setMyGroups(res.data))
-        .catch(() => {
-          toast.error("Something went wrong!!", {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
+      if (!!token) {
+        api
+          .get("/groups/subscriptions/", {
+            headers: { Authorization: `Bearer ${token}` },
+          })
+          .then((res) => setMyGroups(res.data))
+          .catch(() => {
+            toast.error("Something went wrong!!", {
+              position: "top-center",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+            });
           });
-        });
+      }
     }
   }, [authN, token]);
 
