@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
 
   h1 {
     margin: 15px;
@@ -19,14 +20,11 @@ export const Container = styled.div`
   }
   @media (min-width: 1245px) {
     .content {
-      max-width: 860px;
+      max-width: 840px;
     }
   }
-  @media (min-width: 1440px) {
-    .content {
-      max-width: 960px;
-    }
-  }
+  
+
 `;
 
 export const ContainerCard = styled.div`
@@ -35,8 +33,8 @@ export const ContainerCard = styled.div`
   display: flex;
   align-items: center;
   margin: 10px 10px;
-  max-width: 700px;
-  min-width: 260px;
+
+  width: 260px;
   justify-content: space-between;
 
   svg {
@@ -63,16 +61,11 @@ export const ContainerCard = styled.div`
 
   @media (min-width: 768px) {
     margin: 8px 10px;
-    width: 20vw;
     border-radius: 8px;
     flex-direction: column;
     padding: 40px;
     height: 350px;
-    justify-content: space-between;
-
-    /* h2 {
-      margin: 5px 0;
-    } */
+    justify-content: space-around;
 
     .imageContainer {
       display: block;
@@ -86,9 +79,6 @@ export const ContainerCard = styled.div`
         border: 2px solid lightgray;
         padding: 5px;
       }
-    }
-    svg {
-      margin-right: 18px;
     }
   }
 `;
