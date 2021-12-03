@@ -20,7 +20,7 @@
 ### ⚙️ Funcionalidades
 
 - [x] Os usuários podem se cadastrar na plataforma web.
-- [x] Efetuar Login por meio do email e senha.
+- [x] Efetuar Login por meio do usuário e senha.
 - [x] Fazer cadastro de hábitos.
 - [x] Criar ou participar de Grupos.
 - [x] Visualizar/criar atividades nos grupos que está inscrito.
