@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://i.imgur.com/9iUkqgG.png" /><br><br>
+    <img src="https://i.imgur.com/9iUkqgG.png" width="273px" hight="154px"/><br><br>
 </h1>
 
 <p align="center">🚀 Plataforma criada para ajudar no aprendizado de uma nova língua através do gerenciamento de hábitos.</p>
@@ -19,7 +19,10 @@
 
 - [x] Os usuários podem se cadastrar na plataforma web.
 - [x] Efetuar Login por meio do email e senha.
-- [x] Pesquisa de usuários
+- [x] Fazer cadastro de hábitos.
+- [x] Criar ou participar de Grupos.
+- [x] Vizualizar/criar atividades nos grupos que está inscrito.
+- [x] Vizualizar/criar metas nos grupos que está inscrito.
 
 ## 🚀 Tecnologias
 
