@@ -9,9 +9,10 @@
     <h4> 🚧  Track Speak 🚀 Primeira versão concluída.  🚧</h4>
 </div>
 
-<h2 align="center"> 
-	Preview da tela home do site.
-</h2>
+<div align="center">
+    <h2> Preview da tela home do site.</h2>
+</div>
+
 <div align="center">
     <img width="800px" hight="300px" src="https://i.imgur.com/nWtMtcf.png" /><br><br>
 </div>
@@ -44,3 +45,5 @@ $ yarn start
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
 ```
+
+[Link do site](https://habits-management-seven.vercel.app/)
