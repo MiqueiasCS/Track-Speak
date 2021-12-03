@@ -1,19 +1,20 @@
-<h1 align="center">
-    <img src="https://i.imgur.com/9iUkqgG.png" width="273px" hight="154px"/><br><br>
-</h1>
+<div align="center">
+    <img src="https://i.imgur.com/9iUkqgG.png" width="200px"/><br><br>
+</div>
 
-<p align="center">🚀 Plataforma criada para ajudar no aprendizado de uma nova língua através do gerenciamento de hábitos.</p>
-
-<h4 align="center"> 
-	🚧  PCD TECH 🚀 Primeira versão concluída.  🚧
-</h4>
+<div align="center">
+    <p align="center">🚀 Plataforma criada para ajudar no aprendizado de uma nova língua através do gerenciamento de hábitos.</p>
+</div>
+<div align="center">
+    <h4> 🚧  Track Speak 🚀 Primeira versão concluída.  🚧</h4>
+</div>
 
 <h2 align="center"> 
 	Preview da tela home do site.
 </h2>
-<h1 align="center">
+<div align="center">
     <img width="800px" hight="300px" src="https://i.imgur.com/nWtMtcf.png" /><br><br>
-</h1>
+</div>
 
 ### ⚙️ Funcionalidades
 
