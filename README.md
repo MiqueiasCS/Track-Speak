@@ -23,8 +23,8 @@
 - [x] Efetuar Login por meio do email e senha.
 - [x] Fazer cadastro de hábitos.
 - [x] Criar ou participar de Grupos.
-- [x] Vizualizar/criar atividades nos grupos que está inscrito.
-- [x] Vizualizar/criar metas nos grupos que está inscrito.
+- [x] Visualizar/criar atividades nos grupos que está inscrito.
+- [x] Visualizar/criar metas nos grupos que está inscrito.
 
 ## 🚀 Tecnologias
 
